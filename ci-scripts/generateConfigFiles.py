@@ -28,12 +28,12 @@ class hssConfigGen():
 		self.hss_s6a_IP = ipaddress.ip_address('0.0.0.0')
 		self.fromDockerFile = False
 		self.envForEntrypoint = False
-		self.apn1 = 'apn.oai.svc.cluster.local'
-		self.apn2 = 'internet'
+		self.apn1 = 'apn0.openair4G.eur'
+		self.apn2 = 'apn1.openair4G.eur'
 		self.ltek = '8baf473f2f8fd09487cccbd7097c6862'
 		self.op = '11111111111111111111111111111111'
-		self.imsi = '311480100001101'
-		self.realm = 'openairinterface.org'
+		self.imsi = '208930100001101'
+		self.realm = 'openair4G.eur'
 		self.users = '10'
 		self.nb_mmes = 1
 
